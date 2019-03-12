@@ -12,7 +12,7 @@
 		$('<li class="dropdown priority-nav"><a class="dropdown-toggle" data-toggle="dropdown"><i class="fas fa-ellipsis-v"></i></a><ul class="dropdown-menu closed">' + $('.navbar-nav').html() + '</ul></li>').appendTo('.navbar-nav');
 
 		// NAV SEARCH
-		$('<li class="nav-search"><a><i class="fa fa-search"></i></a></li>').appendTo('.navbar-nav');
+		$('<li class="nav-search"><a><i class="fas fa fa-search"></i></a></li>').appendTo('.navbar-nav');
 
 		$('.quick-search').appendTo('.nav-search');
 
