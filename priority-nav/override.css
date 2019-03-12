@@ -65,10 +65,6 @@
 		display: block !important;
 	}
 
-	.priority-nav {
-		display: none !important;
-	}
-
 	.nav-search a {
 		display: none !important;
 	}
@@ -102,13 +98,17 @@
 
 
 /* PRIORITY NAV */
-@media screen and (min-width: 768px) {
+@media screen and (max-width: 767px) {
 	.priority-nav {
-		display: none;
+		display: none !important;
 	}
 }
 
 @media screen and (min-width: 768px) {
+	.navbar .navbar-nav > li.priority-nav {
+		padding-right: 15px;
+	}
+
 	.priority-nav a {
 		padding: 10px 15px !important;
 		cursor: pointer;
