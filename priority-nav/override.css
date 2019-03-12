@@ -131,6 +131,11 @@
 		box-shadow: none;
 	}
 
+	.dropdown-menu .dropdown-submenu:hover>.dropdown-menu,
+	.dropdown-menu .dropdown:hover>.dropdown-menu {
+		background: none;
+	}
+
 	.priority-nav > .dropdown-menu .dropdown > a {
 		display: none;
 	}
