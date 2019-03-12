@@ -1,0 +1,147 @@
+.site-logo {
+	display: inline-block;
+	position: relative;
+	z-index: 1;
+}
+
+@media screen and (min-width: 768px) {
+	.site-logo {
+		float: left;
+	}
+}
+
+
+/* NAVIGATION */
+.nav-search a {
+	width: 44px;
+	text-align: center;
+	cursor: pointer;
+}
+
+.nav-search .quick-search {
+	display: none;
+	position: absolute;
+	bottom: -86px;
+	right: 15px;
+	padding: 20px;
+	background: #fff;
+	border: 1px solid #dfe5e8;
+	z-index: 10;
+}
+
+.nav-search .active + .quick-search	{
+	display: block;
+}
+
+.nav-search .quick-search form {
+	height: auto;
+	position: relative;
+	border: none;
+	background: none;
+}
+
+.nav-search .quick-search input.search-text {
+	font-size: 16px;
+	padding: 10px 40px 10px 15px;
+	height: auto;
+	width: 260px;
+	background: #f0f3f2;
+	border: 1px solid #dfe5e8;
+	border-radius: 3px;
+	outline: none;
+}
+
+.nav-search .quick-search input.search-button {
+	position: absolute;
+	top: 0;
+	right: 0;
+	left: auto;
+	margin: 0;
+	padding: 0 20px;
+}
+
+@media screen and (max-width: 767px) {
+	.navbar-nav > li.hide {
+		display: block !important;
+	}
+
+	.priority-nav {
+		display: none !important;
+	}
+
+	.nav-search a {
+		display: none !important;
+	}
+
+	.nav-search .quick-search {
+		display: block !important;
+		position: relative;
+		bottom: 0;
+		right: 0;
+		padding: 15px;
+		background: none;
+		border: none;
+		border-bottom: 1px solid #dfe5e8;
+		width: 100%;
+	}
+
+	.nav-search .quick-search input.search-text {
+		width: 100%;
+	}
+}
+
+@media screen and (min-width: 768px) {
+	.navbar .navbar-nav > li {
+		padding: 0 30px 0 0;
+	}
+
+	.navbar .navbar-nav > li:last-child {
+		padding: 0 15px 0 0;
+	}
+}
+
+
+/* PRIORITY NAV */
+@media screen and (min-width: 768px) {
+	.priority-nav {
+		display: none;
+	}
+}
+
+@media screen and (min-width: 768px) {
+	.priority-nav a {
+		padding: 10px 15px !important;
+		cursor: pointer;
+	}
+
+	.priority-nav > .dropdown-menu {
+		left: auto;
+		right: 30px;
+		border: none;
+		-webkit-box-shadow: 0 6px 12px rgba(0,0,0,.175);
+		box-shadow: 0 6px 12px rgba(0,0,0,.175);
+	}
+
+	.priority-nav > .dropdown-menu .dropdown-menu {
+		display: block;
+		position: relative;
+		top: 0;
+		width: 100%;
+		border: none;
+		box-shadow: none;
+	}
+
+	.priority-nav > .dropdown-menu .dropdown > a {
+		display: none;
+	}
+
+	.priority-nav > .dropdown-menu .dropdown-menu > li > a {
+		padding-left: 30px !important;
+		font-size: 0.75em;
+	}
+
+	.priority-nav > .dropdown-menu .dropdown-menu > li:first-child > a {
+		padding-left: 15px !important;
+		font-size: 0.875em;
+	}
+}
