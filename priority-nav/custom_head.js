@@ -1,9 +1,5 @@
 (function($) {
 	$(document).ready(function() {
-		$(document).load(function() {
-			priorityNav();
-		});
-
 		$(window).on('resize', function() {
 			priorityNav();
 		});
@@ -27,6 +23,9 @@
 			}
 		});
 		// NAV SEARCH
+
+		// Call function after priority-nav and nav-search have been added to the navigation
+		priorityNav();
 	});
 
 	function priorityNav() {
