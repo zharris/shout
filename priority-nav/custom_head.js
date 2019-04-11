@@ -34,7 +34,7 @@
 		// I'm using the float of the logo to detect if the device is mobile, since the logo is only floating on devices >= 768px
 		if(logo.css('float') === 'left') {
 			var nav = $('.navbar-nav'),
-			areaWidth = nav.width() - logo.width() - 90;
+			areaWidth = nav.width() - logo.width() - 90,
 			priority = $('.priority-nav > .dropdown-menu'),
 			// for checking if the nav is too long
 			lengthCheck = false,
