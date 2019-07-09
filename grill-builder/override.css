@@ -1,0 +1,154 @@
+/* GRILL BUILDER */
+#product-fullwidth .product-title,
+#product-fullwidth .product_option-listbox,
+#product-fullwidth .product_option-radio,
+#product-fullwidth .product_option-long_text,
+/*#product-fullwidth .moldkit-instructions,*/
+#product-fullwidth .product-add {
+	display: none;
+}
+
+#product-fullwidth .product_option-listbox h4,
+#product-fullwidth .product_option-radio h4,
+#product-fullwidth .product_option-long_text h4 {
+	color: #ad9557;
+	border-top: 1px solid #ad9557;
+	padding: 15px 0 0 0;
+	margin: 60px 0 15px 0;
+	text-transform: none;
+}
+
+#product-fullwidth .moldkit-instructions {
+	padding: 15px 0 5px 0;
+}
+
+#product-fullwidth .product_option-listbox.active {
+	display: block;
+}
+
+#product-fullwidth .editor-content > .content-wrapper {
+	max-width: 630px;
+}
+
+.grill-builder-container {
+	position: relative;
+	margin: 30px auto;
+}
+
+#grill-builder-teeth {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+}
+
+#grill-builder-teeth path {
+	fill: transparent;
+	cursor: pointer;
+	opacity: 0;
+	transition: fill 0.1s ease-in-out;
+}
+
+#grill-builder-teeth path:hover {
+	opacity: 0.75;
+}
+
+#grill-builder-teeth path.active {
+	opacity: 0.9;
+}
+
+#grill-builder-teeth path,
+#grill-builder-teeth.top-yellow .top-row,
+#grill-builder-teeth.bottom-yellow .bottom-row {
+	fill: #ad9557;
+}
+
+#grill-builder-teeth.top-white .top-row,
+#grill-builder-teeth.bottom-white .bottom-row {
+	fill: #fff;
+}
+
+#grill-builder-teeth.top-rose .top-row,
+#grill-builder-teeth.bottom-rose .bottom-row {
+	fill: pink;
+}
+
+#grill-builder-teeth.top-silver .top-row,
+#grill-builder-teeth.bottom-silver .bottom-row {
+	fill: silver;
+}
+
+#product-fullwidth .product-details {
+	float: none;
+	width: 630px;
+	max-width: 100%;
+	margin: 0 auto;
+}
+
+#product-fullwidth .product-options > .content-wrapper,
+#product-fullwidth .product-add > .content-wrapper {
+	padding: 0;
+}
+
+#product-fullwidth .productOptionName {
+	margin-bottom: 10px;
+}
+
+#product-fullwidth .product-options-price-adjust {
+	border: none;
+	font-size: 1em;
+	padding: 15px 0;
+}
+
+#product-fullwidth .product-options-price-adjust::before {
+	content: 'Estimated Total';
+	display: block;
+	font-size: 1.5em;
+	font-weight: 700;
+	margin: 30px 0;
+}
+
+#product-fullwidth .product-adjusted-options-price::after {
+	content: 'Please Note';
+	display: block;
+	float: left;
+	width: 100%;
+	text-align: left;
+	padding: 30px 0 10px 0;
+}
+
+#product-fullwidth .product-options-price-adjust::after {
+	content: 'Please be aware that the total submitted and paid is subject to final review upon receipt of order considering any detailed instructions may be cause for a required adjustment to the estimate. Thank you for your understanding.';
+	display: block;
+	float: left;
+	width: 100%;
+	padding: 0 0 30px 0;
+}
+
+#product-fullwidth .product-options-price-mods {
+	border-bottom: 1px solid #eae4d5;
+}
+
+#product-fullwidth .product_option-price-mod {
+	padding: 20px 0;
+	margin: 0;
+	border-top: 1px solid #eae4d5;
+}
+
+#product-fullwidth .product-adjusted-options-price {
+	font-size: 1em;
+}
+
+#product-fullwidth .product-adjusted-options-price {
+	border: none;
+	margin: 0;
+	padding: 20px 0 0 0;
+}
+
+#product-fullwidth .product-adjusted-options-price .price-mod-label,
+#product-fullwidth .product-adjusted-options-price .product_option-price-mod-value {
+	color: #ad9557;
+	font-size: 1.25em;
+	font-weight: 700;
+}
