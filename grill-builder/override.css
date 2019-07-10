@@ -61,22 +61,22 @@
 #grill-builder-teeth path,
 #grill-builder-teeth.top-yellow .top-row,
 #grill-builder-teeth.bottom-yellow .bottom-row {
-	fill: #ad9557;
+	fill: url(#yellow-gold);
 }
 
 #grill-builder-teeth.top-white .top-row,
 #grill-builder-teeth.bottom-white .bottom-row {
-	fill: #fff;
+	fill: url(#white-gold);
 }
 
 #grill-builder-teeth.top-rose .top-row,
 #grill-builder-teeth.bottom-rose .bottom-row {
-	fill: pink;
+	fill: url(#rose-gold);
 }
 
 #grill-builder-teeth.top-silver .top-row,
 #grill-builder-teeth.bottom-silver .bottom-row {
-	fill: silver;
+	fill: url(#silver);
 }
 
 #product-fullwidth .product-details {
